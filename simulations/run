@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/sensornetworks_simulation_lab1 -n .:../src $*
+# for shared lib, use: opp_run -l ../src/sensornetworks_simulation_lab1 -n .:../src $*
